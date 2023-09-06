@@ -1,0 +1,42 @@
+.pet-list {
+    background-color: lightcyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-style: double;
+
+}
+
+.pet {
+    border-style: dashed;
+    max-width: 90%;
+    border-color: green;
+    border-radius: 30%;
+    padding: 5%;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr ;
+    max-width: 80%;
+    padding-left: 10%;
+
+}
+
+.each-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.each-input label {
+    border-style: solid;
+    background-color: green;
+}
+
+.each-input input {
+    background-color: lavender;
+    text-decoration-color: white;
+}
+.pet-form {
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
